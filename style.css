@@ -1,3 +1,7 @@
 * {
   box-sizing: border-box;
+  color: darkred;
+}
+ul li{
+  list-style-type: square;
 }
