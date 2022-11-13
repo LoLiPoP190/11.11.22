@@ -1,10 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 * {
   box-sizing: border-box;
-  color: darkred;
-}
-ul li{
-  list-style-type: square;
-}
-h1 {
-  background-color: aqua;
+  font-family: 'Sono', sans-serif;
 }
