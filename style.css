@@ -33,7 +33,7 @@ h2{
 .btn{
   text-align: center;
 }
-button{
+.btn1{
   width: 50px;
   height: 50px;
   border: 0;
@@ -41,7 +41,26 @@ button{
   background-color: darkred;
   transition: transform 1s ease-in-out 2s, box-shadow 3s ease-in-out 1s;
 }
-button:hover{
+.btn1:hover{
   transform: translate(100px, 100px);
   box-shadow: 0 0 50px 30px darkred ;
+}
+
+.sun{
+  text-align: center;
+  margin-top: 100px;
+}
+.sun button{
+  height: 50px;
+  width: 50px;
+  border: 0;
+  background-color: yellow;
+  border-top-left-radius: 60% ;
+  border-top-right-radius: 60% ;
+  transition: transform 3s ease-in-out 1s, box-shadow 2s ease-in-out 1s, border-radius 3s ease-in-out 1s;
+}
+.btn2:hover{
+  box-shadow: 0 0 30px 50px rgba(255, 255, 0, 0.555);
+  transform: translate(0, -50px);
+  border-radius: 50%;
 }
