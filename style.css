@@ -5,6 +5,7 @@
   list-style-type: none;
 }
 .nav{
+  text-transform: capitalize;
   display: flex;
   justify-content: space-between;
   background-color: darkred;
