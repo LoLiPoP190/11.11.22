@@ -2,4 +2,26 @@
 * {
   box-sizing: border-box;
   font-family: 'Sono', sans-serif;
+  list-style-type: none;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: darkred;
+  color: white;
+  flex-wrap: wrap;
+}
+.nav1 ul{
+  display: flex;
+  align-items: center;
+}
+.nav2 ul{
+  display: flex;
+  font-size: smaller;
+}
+.logo{
+  width: 50px;
+}
+nav li{
+  margin: 0 15px 0 5px;
 }
