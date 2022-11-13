@@ -64,3 +64,18 @@ h2{
   transform: translate(0, -50px);
   border-radius: 50%;
 }
+
+.pp{
+  margin-top: 200px;
+  text-align: center;
+}
+.pip{
+  height: 50px;
+  width: 50px;
+  border: 0;
+  background-color: burlywood;
+}
+.pip:hover{
+  border-radius: 50%;
+  box-shadow: -30px 0 burlywood, 30px 0 burlywood;
+}
